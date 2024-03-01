@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="backdrop" id="backdrop" ></div>
+
+    <div class="main-container">
+        <button id="update">Обновить</button>
+        
+        <div>
+            <input id="input" class="input" type="text" name="text" placeholder="Поиск" autofocus>
+            <div class="highlight"></div>
+        </div>
+    </div>
+
+    <div id="form" class="form" >
+        <h3>Вы действительно хотите обновить список пользователей?</h3>
+        <div>
+            <button id="update-yes">Обновить</button>
+            <button id="update-cancel">cancel</button>
+        </div>
+    </div>
+
+        <div id="display-data" class="container-users"></div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
